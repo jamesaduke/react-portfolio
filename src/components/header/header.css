@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    background-color: #61dafb;
+    justify-content: space-between;
+    flex: 1;
+    padding: 1em;
+    position: relative;
+    align-items: center;
+}
+
+.menu{
+    background-color: aliceblue;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu-icon{
+    font-size: 2em;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+.webMenu{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    font-size: 36px;
+    color: blueviolet;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 720px) {
+    .mobileMenu{
+        display: flex;
+    }
+
+    .webMenu{
+
+    }
+
+    .logo{
+        font-size: 24px;
+    }
+}

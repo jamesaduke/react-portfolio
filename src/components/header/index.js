@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import Web from "./mobile";
+import './header.css';
+import Web from "./web";
 import Mobile from "./mobile";
 
 
@@ -14,9 +15,9 @@ function Header(){
                     <div onClick={() => {
                         setIsOpen(!isOpen);
                     }}>
-                        <i class="fi fi-rr-menu-burger"/>
+                        <i class="fi fi-rr-menu-burger menu-icon"/>
                     </div>
-                    {isOpen && <Mobile isOpen = {isOpen} setIsOpen={setIsOpen}/>}
+                    {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen}/>}
                 </div>
             </div>
         </div>
