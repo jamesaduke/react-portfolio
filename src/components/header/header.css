@@ -1,6 +1,5 @@
 .header{
     display: flex;
-    background-color: #61dafb;
     justify-content: space-between;
     flex: 1;
     padding: 1em;
@@ -9,7 +8,6 @@
 }
 
 .menu{
-    background-color: aliceblue;
     display: flex;
     flex: 1;
     justify-content: flex-end;
