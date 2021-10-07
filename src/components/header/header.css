@@ -41,8 +41,8 @@
         display: flex;
     }
 
-    .webMenu{
-
+    .web-menu{
+        display: none;
     }
 
     .logo{

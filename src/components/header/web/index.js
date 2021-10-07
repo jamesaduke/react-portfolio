@@ -15,13 +15,13 @@ function Web (){
         </div>
 
         <div className="web-option">
-            <a href="work">
+            <a href="#work">
                 <i className="fi fi-rr-briefcase option-icon"/>Work
             </a>
         </div>
 
         <div className="web-option">
-            <a href="contact">
+            <a href="#contact">
                 <i className="fi fi-rr-user option-icon"/>Contact
             </a>
         </div>
