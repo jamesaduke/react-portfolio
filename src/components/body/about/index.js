@@ -1,5 +1,6 @@
 import React from "react";
 import './about.css';
+import SocialContact from "../../../common/social-contact";
 
 function About (){
     return (
@@ -17,6 +18,7 @@ function About (){
             <div className="about-bottom">
 
             </div>
+            <SocialContact />
         </div>
     );
 
