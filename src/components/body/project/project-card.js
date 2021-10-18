@@ -14,10 +14,23 @@ function ProjectCard ({project}){
                             </div>
                         </a>
                     )}
+                    {project.github&& (
+                        <a className="project-link" href={project.github}>
+                            <div className="link-button">
+                                <i class="devicon-github-original colored"/>Github
+                            </div>
+                        </a>
+                    )}
+                </div>
+                <p>{project.about}</p>
+                <div className="project-tags">
+                    {project.tags.map((tag) => {
+                        return <label className="tag">{tag}</label>;
+                    })}
                 </div>
             </div>
             <img src={project.image} className="project-photo" alt=""/>
-
+            p
         </div>
     );
 
