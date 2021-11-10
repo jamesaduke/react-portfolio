@@ -3,7 +3,7 @@ import './body.css';
 import About from "./about";
 import Projects from "./project";
 import Skills from "./skills";
-import Work from "./work";
+// import Work from "./work"; resume covers for now
 import Contact from "./contact";
 
 function Body (){
